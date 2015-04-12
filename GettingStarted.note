@@ -1,0 +1,60 @@
+# Getting Started with Annote
+
+## In-Line Syntax
+There are a lot of in-line syntax options that you can use in your notes!
+
+#### Italics or Emphasis
+Using single `*` or `_` around text will cause an *italics* effect.
+
+#### Bold-Face
+Using double `**` or `__` will cause text to be **bold faced**.
+
+#### In-Line Code
+Using <code>\`</code> (back-ticks) around text makes it `code`.
+
+#### Math
+Math is really easy to format in an\note! Just use `\$` surrounding text to make it math. For example, $a^2 + b^2 = c^2$.
+
+#### HTML In-Line Elements
+an\note also supports all HTML in-line elements, such as `<b>`, `<em>`, and even `<span>`, which makes things like <span style="color: blue;">blue text</span> possible.
+
+## Block Syntax
+Your notes can also have several flavors of block elements, many of which can be viewed separately using the **view buttons** at the top right of the page.
+
+#### Code
+Using triple <code>\`</code> (back-ticks) above and below text makes it code! Your code can be viewed in the *Code* tab.
+
+```
+def sayMoreInfo():
+    print "Your code is even syntax-hilighted!"
+```
+
+#### Equations
+Equations can be marked by surrounding text with `eqn` tags. 
+
+<eqn> ||x+y||^2 = ||x||^2 + ||y^2|| + 2x.y </eqn>
+
+They can be found in the *Equations* tab.
+
+#### Definitions
+Definitons are simple, and can be found in the *Definitions* tab. They can be written simply as:
+
+```
+Word
+: definition
+```
+
+They look like this:
+
+Word
+: definition
+
+#### Quotes
+Quotes can be found in the *Quotes* tab, and are formed by putting a `>` before a line.
+
+> Quotes look like this.
+
+#### Theorems
+Theorems can be marked by `thm` tags, and don't look special. They can be groupings of anything, and are used purely to save something in the *Theorems* tab.
+
+<thm> This is a **theorem**. </thm>
